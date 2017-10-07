@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        .hexagon {
+            width: 170px;
+            height: 170px;
+            float: left;
+            border: 1px dashed grey;
+            border-radius: 85px;
+            margin: 0px 5px 0px 5px;
+            text-align: center;
+            line-height: 170px;
+        }
+        .row {
+            height: 172px;
+        }
+        .row3 {
+            padding-left: 180px;
+        }
+        .row4 {
+            padding-left: 90px;
+        }
+        #board {
+            margin: 50px 25px 25px 25px;
+            align-content: center;
+        }
+        .chances {
+            position: relative;
+            width: 70px;
+            height: 50px;
+            line-height: 50px;
+        }
+        .top-left {
+            top: -10px;
+            left: -40px;
+        }
+        .top {
+            top: -100px;
+            left: 50px;
+        }
+        .top-right {
+            top: -280px;
+            left: 145px;
+        }
+        .bottom-right {
+            top: -200px;
+            left: 145px;
+        }
+        .bottom-left {
+            top: -145px;
+            left: -40px;
+        }
+        .bottom-left.last {
+            top: -245px;
+        }
+        .bottom {
+            top: -155px;
+            left: 50px;
+        }
+        .bottom.last {
+            top: -255px;
+        }
+        .number {
+            position: relative;
+            top: -100px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="board">
+        <div class="row row3">
+            <div class="hexagon ha">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">X</div>
+            </div>
+            <div class="hexagon hb">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">2</div>
+            </div>
+            <div class="hexagon bc">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">3</div>
+                <div class="chances top-right">50%</div>
+
+            </div>
+        </div>
+        <div class="row row4">
+            <div class="hexagon hd">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">3</div>
+
+            </div>
+            <div class="hexagon he">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">4</div>
+
+            </div>
+            <div class="hexagon hf">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">4</div>
+
+            </div>
+            <div class="hexagon hg">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">5</div>
+                <div class="chances top-right">50%</div>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="hexagon hh">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">5</div>
+                <div class="chances bottom-left">50%</div>
+
+            </div>
+            <div class="hexagon hi">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">6</div>
+
+            </div>
+            <div class="hexagon hj">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">6</div>
+            </div>
+            <div class="hexagon hk">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">8</div>
+
+            </div>
+            <div class="hexagon hl">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">8</div>
+                <div class="chances top-right">50%</div>
+                <div class="chances bottom-right">50%</div>
+
+            </div>
+
+        </div>
+        <div class="row row4">
+            <div class="hexagon hm">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">9</div>
+                <div class="chances bottom-left">50%</div>
+
+            </div>
+            <div class="hexagon hn">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+
+                <div class="number">9</div>
+            </div>
+            <div class="hexagon ho">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+
+                <div class="number">10</div>
+            </div>
+            <div class="hexagon hp">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+
+                <div class="number">10</div>
+                <div class="chances top-right">50%</div>
+                <div class="chances bottom-right">50%</div>
+            </div>
+
+        </div>
+        <div class="row row3">
+            <div class="hexagon hq">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">11</div>
+                <div class="chances bottom-left">50%</div>
+                <div class="chances bottom">50%</div>
+
+            </div>
+            <div class="hexagon hr">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">11</div>
+                <div class="chances bottom-left">50%</div>
+                <div class="chances bottom">50%</div>
+
+            </div>
+            <div class="hexagon hs">
+                <div class="chances top-left">50%</div>
+                <div class="chances top">50%</div>
+                <div class="number">12</div>
+                <div class="chances top-right">50%</div>
+                <div class="chances bottom-right">50%</div>
+                <div class="chances bottom-left last">50%</div>
+                <div class="chances bottom last">50%</div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
